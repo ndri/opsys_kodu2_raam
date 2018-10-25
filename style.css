@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+}
+
+#mälu {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+#mälu td {
+    padding: 4px;
+    text-align: center;
+}
+#mälu tbody td:not(:nth-child(1)):not(:nth-child(2)) {
+    border: 1px solid black;
+}
+#mälu tbody td:nth-child(2) {
+    text-align: left;
+}
+
+#endaoma {
+    font-size: 1em;
+    padding: 0;
+}
+
+.värvA {
+    background-color: #ff9ff3;
+}
+.värvB {
+    background-color: #feca57;
+}
+.värvC {
+    background-color: #ff6b6b;
+}
+.värvD {
+    background-color: #48dbfb;
+}
+.värvE {
+    background-color: #1dd1a1;
+}
+.värvF {
+    background-color: #00d2d3;
+}
+.värvG {
+    background-color: #54a0ff;
+}
+.värvH {
+    background-color: #5f27cd;
+}
+.värvI {
+    background-color: #c8d6e5;
+}
+.värvJ {
+    background-color: #576574;
+}

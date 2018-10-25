@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teine kodutöö</title>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <main>
+            <h1>Teine kodutöö</h1>
+            <p>Vali või sisesta kuni kümneelemendile järjend kujul 3,5;2,7;8,2;4,6;7,1;6,4;8,8;3,6;1,10;9,2</p>
+            <form>
+                <input type="radio" name="järjend" value="4,5;2,7;9,2;4,6;7,1;6,4;8,8;3,6;1,10;9,2"> 4,5;2,7;9,2;4,6;7,1;6,4;8,8;3,6;1,10;9,2<br>
+                <input type="radio" name="järjend" value="1,10;6,6;3,9;2,4;1,6;5,2;1,4;5,2;2,1;2,7"> 1,10;6,6;3,9;2,4;1,6;5,2;1,4;5,2;2,1;2,7<br>
+                <input type="radio" name="järjend" value="1,10;6,6;3,9;8,4;3,6;5,12;1,4;15,3;3,4;9,7"> 1,10;6,6;3,9;8,4;3,6;5,12;1,4;15,3;3,4;9,7<br>
+                <input type="radio" name="järjend" value="1,8;35,4;3,6;4,2;1,4;3,3;1,2;5,1;50,1" checked> 1,8;35,4;3,6;4,2;1,4;3,3;1,2;5,1;50,1<br>
+                <input type="radio" name="järjend" value="">
+                <input id="endaoma" type="text" size="30" placeholder="Enda oma"><br>
+                <p>Algoritmi käivitamiseks klõpsa nupule:</p>
+                <button type="button" onclick="vajutus('First-Fit')">First-Fit</button>
+                <button type="button" onclick="vajutus('Last-Fit')">Last-Fit</button>
+                <button type="button" onclick="vajutus('Worst-Fit')">Worst-Fit</button>
+                <button type="button" onclick="vajutus('Random-Fit')">Random-Fit</button>
+            </form>
+            <h2 id="pealkiri">First-Fit</h2>
+            <table id="mälu">
+                <thead>
+                    <tr>
+                        <td><strong>Etapp</strong></td>
+                        <td><strong>Lisatud protsess</strong></td>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>
