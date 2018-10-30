@@ -84,11 +84,6 @@ function kontrolli(x, y) {
     return lahter.innerHTML === "-";
 }
 
-// Uuendab enda sisendi valiku väärtuse tekstikasti sisuks
-function uuenda() {
-    document.getElementById("endanupp").value = document.getElementById("endatekst").value;
-}
-
 // Käivitatakse siis, kui algoritmi nupule vajutatakse
 function vajutus(algoritm) {
 
